@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Claude Visuals</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f3f3f3;
+color:#222;
+}
+
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(hero.jpg);
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+header h1{
+font-size:64px;
+letter-spacing:4px;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#384238;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:500;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:36px;
+}
+
+.portfolio{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.portfolio img{
+width:100%;
+border-radius:10px;
+transition:0.4s;
+}
+
+.portfolio img:hover{
+transform:scale(1.05);
+}
+
+.packages{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+.package{
+background:#384238;
+color:white;
+padding:40px;
+border-radius:12px;
+width:280px;
+text-align:center;
+}
+
+.price{
+font-size:30px;
+margin-top:15px;
+}
+
+.presets{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.preset{
+background:white;
+padding:25px;
+border-radius:10px;
+width:250px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+button{
+background:#384238;
+color:white;
+border:none;
+padding:12px 20px;
+margin-top:10px;
+cursor:pointer;
+}
+
+.contact{
+background:#384238;
+color:white;
+text-align:center;
+padding:70px;
+}
+
+.social a{
+color:white;
+margin:10px;
+display:inline-block;
+text-decoration:none;
+font-size:18px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+font-weight:bold;
+text-decoration:none;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#portfolio">Portfolio</a>
+<a href="#packages">Packages</a>
+<a href="#presets">Presets</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<header>
+
+<div>
+
+<h1>Claude Visuals</h1>
+<p>Indoor • Outdoor • Events • Portraits</p>
+
+</div>
+
+</header>
+
+
+<section id="portfolio">
+
+<h2>Portfolio</h2>
+
+<div class="portfolio">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+<img src="photo6.jpg">
+
+</div>
+
+</section>
+
+
+<section id="packages">
+
+<h2>Photography Packages</h2>
+
+<div class="packages">
+
+<div class="package">
+
+<h3>Package One</h3>
+
+<p>10 Edited Photos</p>
+<p>Group Pictures</p>
+<p>Indoor</p>
+
+<div class="price">100K</div>
+
+</div>
+
+
+<div class="package">
+
+<h3>Package Two</h3>
+
+<p>15 Edited Photos</p>
+<p>A4 Photoboard</p>
+<p>One Reel Video</p>
+
+<div class="price">150K</div>
+
+</div>
+
+
+<div class="package">
+
+<h3>Package Three</h3>
+
+<p>20 Edited Photos</p>
+<p>Two Reels</p>
+<p>Indoor / Outdoor</p>
+
+<div class="price">200K</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="presets">
+
+<h2>Photography Presets</h2>
+
+<div class="presets">
+
+<div class="preset">
+
+<h3>Cinematic Portrait Preset</h3>
+
+<p>$5</p>
+
+<a href="https://www.paypal.com/paypalme/claudeville20013/5">
+
+<button>Buy Now</button>
+
+</a>
+
+<p>Mobile Money: 0752431980</p>
+
+</div>
+
+
+<div class="preset">
+
+<h3>Moody Outdoor Preset</h3>
+
+<p>$5</p>
+
+<a href="https://www.paypal.com/paypalme/claudeville20013/5">
+
+<button>Buy Now</button>
+
+</a>
+
+<p>Mobile Money: 0752431980</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+<h2>Book a Shoot</h2>
+
+<p>Kampala, Uganda</p>
+
+<div class="social">
+
+<a href="https://wa.me/256752431980">WhatsApp</a>
+
+<a href="https://instagram.com/YOURUSERNAME">Instagram</a>
+
+<a href="https://tiktok.com/@YOURUSERNAME">TikTok</a>
+
+</div>
+
+</section>
+
+
+<a class="whatsapp" href="https://wa.me/256752431980">
+
+WhatsApp
+
+</a>
+
+
+<footer>
+
+<p>© Claude Visuals</p>
+
+</footer>
+
+
+</body>
+
+</html>
